@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>border-radius</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <h1>Border Radius</h1>
+    <!-- <button id="myBtn" onclick="myFunction()">Try it</button> -->
+    <div class="container">
+        <div class="left-top">
+            <input type="text" id="tl-inpt" class="nmb-inpt" value="0" onkeyup="myFunction();" onclick="this.select()" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+        </div>
+        <div class="right-top">
+            <input type="text" id="tr-inpt" class="nmb-inpt" value="0" onkeyup="myFunction();" onclick="this.select()" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+        </div>
+        <div id="radius-surface"></div>
+        <div class="left-bottom">
+            <input type="text" id="bl-inpt" class="nmb-inpt" value="0" onkeyup="myFunction();" onclick="this.select()" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+        </div>
+        <div class="right-bottom">
+            <input type="text" id="br-inpt" class="nmb-inpt" value="0" onkeyup="myFunction();" onclick="this.select()" onkeypress="return event.charCode >= 48 && event.charCode <= 57">
+        </div>
+        <div class="instructions">It's percentage based.</div>
+
+    </div>
+
+</body>
+
+</html>

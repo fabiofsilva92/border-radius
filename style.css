@@ -1,0 +1,67 @@
+    html {
+        background-color: #ffffff;
+        font-family: sans-serif;
+    }
+    
+    h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #3f3f3f;
+    }
+    
+    .container {
+        display: block;
+        width: 600px;
+        height: 600px;
+        margin: 50px auto;
+    }
+    
+    .nmb-inpt {
+        width: 25px;
+        background: #eeeded;
+        border-radius: 5px;
+    }
+    
+    #radius-surface {
+        background-color: #ffdf6c;
+        width: 400px;
+        height: 400px;
+        margin: auto;
+    }
+    
+    .left-top,
+    .right-top,
+    .right-bottom,
+    .left-bottom {
+        position: absolute;
+    }
+    
+    input {
+        position: absolute;
+        text-align: center;
+    }
+    
+    #tl-inpt {
+        top: -20px;
+        right: -22px;
+    }
+    
+    #tr-inpt {
+        left: 580px;
+        top: -20px;
+    }
+    
+    #bl-inpt {
+        right: -22px;
+    }
+    
+    #br-inpt {
+        left: 580px;
+    }
+    
+    .instructions {
+        margin-top: 50px;
+        text-align: center;
+        color: #3f3f3f;
+    }
